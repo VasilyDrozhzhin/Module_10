@@ -1,3 +1,4 @@
+# https://github.com/VasilyDrozhzhin/Module_10/blob/main/Module_10_2.py
 import threading
 import time
 
@@ -15,7 +16,7 @@ class Knight(threading.Thread):
 			num_enemis -= self.power
 			time.sleep(1)
 			count += 1
-			print(f'{self.name} сражается {count} дней(дня), осталось {num_enemis} войнов')
+			print(f'{self.name} сражается {count} дней(дня), осталось {num_enemis} войнов\n')
 		print(f'{self.name} одержал победу спустя {count} дней(дня)!')
 
 
